@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        .logo-1 img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .logo-2 img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .frame-1,.frame-2,.frame-3 {
+            border: 1px solid #ddd;
+            margin: 5px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            overflow: auto;
+            height: 500px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .big-frame {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .frame-1 {
+            width: 25%;
+        }
+
+        .frame-2 {
+            width: 50%;
+        }
+
+        .frame-3 {
+            width: 25%;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <nav class="header">
+        <div class="logo-1">
+            <img src="YMIM-OLD.jpg" alt="">
+        </div>
+        <div class="clg-name">
+            <h1>
+                YASHWANTRAO MOHITE INSTITUTE OF MANAGEMENT,
+                KARAD<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(DEEMED
+                TO BE UNIVERSITY)
+            </h1>
+        </div>
+        <div class="logo-2">
+            <img src="ymim-new.png" alt="">
+        </div>
+    </nav>
+    <div class="big-frame">
+        <div class="frame-1">
+            <h2>News</h2>
+            <iframe src="news.html" ></iframe>
+        </div>
+    
+        <div class="frame-2">
+            <h2>Events</h2>
+            <iframe src="events.html" ></iframe>
+        </div>
+    
+        <div class="frame-3">
+            <h2>Programms</h2>
+            <iframe src="programms.html"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
